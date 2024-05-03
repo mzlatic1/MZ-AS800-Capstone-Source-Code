@@ -27,6 +27,7 @@ def part_b(master_folder, postgres_database_name, postgres_host, postgres_port, 
 
     def mercator_proj(coord_value, field_type: str):
         # Convert longitude and latitude values to their meters East (mE) and meters North (mN) values respectively.
+        # Formula for web Mercator can be found here: https://github.com/mraad/WebMercator/blob/master/src/main/python/webmercator/__init__.py
         if field_type == 'x':
             x = coord_value * 111319.490793274
             return float(x)
