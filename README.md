@@ -54,7 +54,7 @@ Packages (all were installed using Conda (via the conda-forge channel), except f
 -	Sys*<br />
 -	OS*<br />
 -	GC*<br />
-	* Python packages that came with the base installation of Python 3.10.13<br /><br />
+	\* Python packages that came with the base installation of Python 3.10.13<br /><br />
 
 Spark Version -> 3.5.0<br />
 Hadoop Version -> 3.3.4<br />
