@@ -22,6 +22,42 @@ There are a total of four Python scripts that are intended to be run in sequenti
 ***MZ_AS800_Methodology_Part_D_RMSE_Summary_Statistics.py***
 ***Objective:*** Generate the root mean square error summary statistics by State. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is executed, otherwise the user will need to indicate the folder path that contains all of the necessary datasets.
 
+### Datasets
+Below are the datasets that are required to be downloaded into a single folder location:<br/>
+- ASTER Global Digital Elevation Map. (n.d.). Retrieved January 20, 2024, from https://asterweb.jpl.nasa.gov/gdem.asp<br/>
+	The primary raster dataset used to gather elevation information.<br/>
+<br/><br/>
+
+- Center For International Earth Science Information Network-CIESIN-Columbia University. (2018a). Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11 [dataset]. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H4Z60M4Z<br/>
+	The primary raster dataset used to gather land and water area information.
+<br/><br/>
+
+- Center For International Earth Science Information Network-CIESIN-Columbia University. (2018b). Gridded Population of the World, Version 4 (GPWv4): Population Count Adjusted to Match 2015 Revision of UN WPP Country Totals, Revision 11 [dataset]. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H4PN93PB<br/>
+	The primary raster dataset used to gather human population count information.
+<br/><br/>
+
+- Center For International Earth Science Information Network-CIESIN-Columbia University. (2018c). Gridded Population of the World, Version 4 (GPWv4): Population Density Adjusted to Match 2015 Revision UN WPP Country Totals, Revision 11 [dataset]. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H4F47M65<br/>
+	The primary raster dataset used to gather human population density information.
+<br/><br/>
+
+- Harmonized world soil database v1.2 | FAO SOILS PORTAL | Food and Agriculture Organization of the United Nations. (n.d.). Retrieved February 24, 2024, from https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v12/en/<br/>
+	The primary raster dataset used to gather soil type information.
+
+<br/><br/>
+- Individual Tree Species Parameter Maps. (n.d.). Retrieved February 23, 2024, from https://www.fs.usda.gov/foresthealth/applied-sciences/mapping-reporting/indiv-tree-parameter-maps.shtml<br/>
+	The primary raster dataset used to gather total basal area (TBA) and stand density index (SDI) information.
+
+<br/><br/>
+- US Department of Commerce, N. (n.d.). U.S. States and Territories. NOAA’s National Weather Service. Retrieved January 24, 2024, from https://www.weather.gov/gis/USStates<br/>
+	The primary ShapeFile dataset used to gather the US State boundary information.
+<br/><br/>
+- USFS and BLM Campgrounds—Overview. (n.d.). Retrieved March 25, 2024, from https://www.arcgis.com/home/item.html?id=e614311615f3403c88974a89c7e18f72<br/>
+	The primary Feature Layer dataset used to gather campsite location information.
+<br/><br/>
+- Wildland Fire Incident Locations. (n.d.). Retrieved February 26, 2024, from https://data-nifc.opendata.arcgis.com/datasets/b4402f7887ca4ea9a6189443f220ef28_0/explore?location=34.515321,-92.437644,4.93<br/>
+	The primary feature class dataset that will be used to predict wildfire point locations. Otherwise abbreviated as the WFIL dataset.
+<br/><br/>
+
 ### Contact Info
 Email: mzlatic1@jhu.edu<br />
 Name: Marko Zlatic<br />
