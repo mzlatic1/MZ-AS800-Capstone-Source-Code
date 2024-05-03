@@ -1,11 +1,11 @@
 # INPUT FOLDER PATH THAT CONTAINS ALL PY FILES
-cd "C:\Users\marko\OneDrive\JHU\AS800_CAPSTONE\PROD_READY_PY_FILES"
+cd "C:\Users\marko\Downloads\PROD_READY_PY_FILES"
 
 # INPUT FOLDERPATH THAT CONTAINS ALL REQUIRED DATASETS
 $masterFolder = "C:\Users\marko\Downloads\PROD_INPUTS_OUTPUTS"
 
 # INPUT FULL FEATURE CLASS PATH FOR THE WFIL DATASET
-$wfilDataset = "C:\Users\marko\OneDrive\JHU\AS800_CAPSTONE\nifc_wildfire_data\f022c91d-dcdf-4676-9d17-3f54b1ec303b.gdb\Incidents"
+$wfilDataset = "C:\Users\marko\Downloads\f022c91d-dcdf-4676-9d17-3f54b1ec303b.gdb\Incidents"
 
 # INPUT ARCPY PYTHON EXECUTABLE PATH
 $ArcPyPath = "C:\Users\marko\AppData\Local\ESRI\conda\envs\arcgispro-py3-clone-1\python.exe"
