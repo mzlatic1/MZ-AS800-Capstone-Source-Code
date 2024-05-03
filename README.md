@@ -31,7 +31,7 @@ University: Johns Hopkins University<br />
 Graduatation Date: May 2024<br />
 
 ## Python and Software Requirements
-Below is the Python and software requirnments that were used when developing the scripts for this capstone research:<br /><br />
+Below is the Python and software requirements that were used when developing the scripts for this capstone research:<br /><br />
 Operating System -> Windows 10 Pro version 22H2<br />
 Random Access Memory (RAM) -> Corsair Vengeance DDR5 4 x 32 GB (128 GB total)<br />
 Central Processing Unit (CPU) -> AMD Ryzen 9 7900X 12-core<br />
