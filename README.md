@@ -23,9 +23,9 @@ There are a total of four Python scripts that are intended to be ran in sequenti
 ***Objective:*** Generate the root mean square error summary statistics by State. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to incdicate the folder path that contains all of the necessary datasets.
 
 ### Contact Info
-Email: mzlatic1@jhu.edu
-Name: Marko Zlatic
-Status: Graduate Student
-Degree: Master of Science in Geographic Information Systems
-University: Johns Hopkins University
-Graduatation Date: May 2024
+Email: mzlatic1@jhu.edu<br />
+Name: Marko Zlatic<br />
+Status: Graduate Student<br />
+Degree: Master of Science in Geographic Information Systems<br />
+University: Johns Hopkins University<br />
+Graduatation Date: May 2024<br />
