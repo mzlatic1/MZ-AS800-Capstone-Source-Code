@@ -39,7 +39,7 @@ Storage -> Samsung 990 Pro 1TB SSD<br /><br />
 Python Version (for non-ArcPy scripts) -> 3.10.13<br />
 	Conda Version -> 23.7.4<br />
 PIP Version -> 24.0<br />
-Packages (all were installed using Conda (via the conda-forge channel), except for psycopg2, XGBoost, and Optuna, these were installed using PIP):<br />
+Packages (all were installed using Conda (via the conda-forge channel), except for Psycopg2, XGBoost, and Optuna, these were installed using PIP):<br />
 -	Psycopg2 (used for reading/writing to PostgreSQL database) -> 2.9.9<br />
 -	Shapely (used for geometric computations) -> 2.0.3<br />
 -	Numpy (used for mathematical computations) -> 1.26.4<br />
