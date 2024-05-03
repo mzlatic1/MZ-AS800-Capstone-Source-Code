@@ -11,16 +11,16 @@ There are a total of four Python scripts that are intended to be ran in sequenti
 ***Objective:*** Run all of the required Python scripts in the necessary order. Additional parameters are required to be filled in by the user. This will include the folder path that contains all of the necessary datasets, as well as, parameters to access a PostgreSQL database.
 
 ***MZ_AS800_Methodology_Part_A_Raster_Preprocessing.py***
-***Objective:*** Convert all of the necessary raster datasets to feature class datasets. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to incdicate the folder path that contains all of the necessary datasets, as well as parameters to access a PostgreSQL database.
+***Objective:*** Convert all of the necessary raster datasets to feature class datasets. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to indicate the folder path that contains all of the necessary datasets, as well as parameters to access a PostgreSQL database.
 
 ***MZ_AS800_Methodology_Part_B_WFIL_Preprocessing.py***
-***Objective:*** Process the primary wildfire dataset (WFIL) to be adequate for the Part C machine learning script. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to incdicate the folder path that contains all of the necessary datasets, as well as parameters to access a PostgreSQL database.
+***Objective:*** Process the primary wildfire dataset (WFIL) to be adequate for the Part C machine learning script. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to indicate the folder path that contains all of the necessary datasets, as well as parameters to access a PostgreSQL database.
 
 ***MZ_AS800_Methodology_Part_C_Machine_Learning.py***
-***Objective:*** Create a machine learning model that is able to predict wildfire points within a 5km radius of the original locations. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to incdicate the folder path that contains all of the necessary datasets.
+***Objective:*** Create a machine learning model that is able to predict wildfire points within a 5km radius of the original locations. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to indicate the folder path that contains all of the necessary datasets.
 
 ***MZ_AS800_Methodology_Part_D_RMSE_Summary_Statistics.py***
-***Objective:*** Generate the root mean square error summary statistics by State. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to incdicate the folder path that contains all of the necessary datasets.
+***Objective:*** Generate the root mean square error summary statistics by State. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is ran, otherwise the user will need to indicate the folder path that contains all of the necessary datasets.
 
 ### Contact Info
 Email: mzlatic1@jhu.edu<br />
