@@ -55,14 +55,17 @@ Packages (all were installed using Conda (via the conda-forge channel), except f
 -	OS*<br />
 -	GC*<br />
 * Python packages that came with the base installation of Python 3.10.13<br /><br />
+
 Spark Version -> 3.5.0<br />
 Hadoop Version -> 3.3.4<br />
 Java Version -> 21.0.2<br />
-Scala Version -> 2.12.18<br />
+Scala Version -> 2.12.18<br /><br />
+
 ArcGIS Pro Version -> 3.1.0<br />
-	Python Version -> 3.9.16<br />
+-	Python Version -> 3.9.16<br />
 -	ArcPy (used for raster conversions and RMSE summary statistics) -> 3.1<br />
-	Conda Version -> 4.14.0<br />
+-	Conda Version -> 4.14.0<br /><br />
+ 
 PostgreSQL Version -> 16.2<br />
-	Extensions:<br />
+-	Extensions:<br />
 -	PostGIS (used to apply spatial joins) -> 3.4.1<br />
