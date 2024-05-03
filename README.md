@@ -11,7 +11,7 @@ There are a total of four Python scripts that are intended to be run in sequenti
 ***Objective:*** Run all of the required Python scripts in the necessary order. Additional parameters are required to be filled in by the user. This will include the folder path that contains all of the necessary datasets, as well as, parameters to access a PostgreSQL database.
 
 ***MZ_AS800_Methodology_Part_A_Raster_Preprocessing.py***
-***Objective:*** Convert all of the necessary raster datasets to feature class datasets. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is executed, otherwise the user will need to indicate the folder path that contains all of the necessary datasets, as well as parameters to access a PostgreSQL database.
+***Objective:*** Convert all of the necessary raster datasets to feature class datasets. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is executed, otherwise the user will need to indicate the folder path that contains all of the necessary datasets.
 
 ***MZ_AS800_Methodology_Part_B_WFIL_Preprocessing.py***
 ***Objective:*** Process the primary wildfire dataset (WFIL) to be adequate for the Part C machine learning script. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is executed, otherwise the user will need to indicate the folder path that contains all of the necessary datasets, as well as parameters to access a PostgreSQL database.
