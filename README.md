@@ -67,5 +67,5 @@ ArcGIS Pro Version -> 3.1.0<br />
 -	Conda Version -> 4.14.0<br /><br />
  
 PostgreSQL Version -> 16.2<br />
--	Extensions:<br />
+	Extensions:<br />
 -	PostGIS (used to apply spatial joins) -> 3.4.1<br />
