@@ -29,3 +29,40 @@ Status: Graduate Student<br />
 Degree: Master of Science in Geographic Information Systems<br />
 University: Johns Hopkins University<br />
 Graduatation Date: May 2024<br />
+
+## Python and Software Requirements
+Below is the Python and software requirnments that were used when developing the scripts for this capstone research:<br /><br />
+Operating System -> Windows 10 Pro version 22H2<br />
+Random Access Memory (RAM) -> Corsair Vengeance DDR5 4 x 32 GB (128 GB total)<br />
+Central Processing Unit (CPU) -> AMD Ryzen 9 7900X 12-core<br />
+Storage -> Samsung 990 Pro 1TB SSD<br /><br />
+Python Version (for non-ArcPy scripts) -> 3.10.13<br />
+	Conda Version -> 23.7.4<br />
+PIP Version -> 24.0<br />
+Packages (all were installed using Conda (via the conda-forge channel), except for psycopg2 and Optuna, these were installed using PIP):<br />
+-	Psycopg2 (used for reading/writing to PostgreSQL database) -> 2.9.9<br />
+-	Shapely (used for geometric computations) -> 2.0.3<br />
+-	Numpy (used for mathematical computations) -> 1.26.4<br />
+-	SQLalchemy (used for reading/writing to PostgreSQL database) -> 2.0.28<br />
+-	Pandas (used for dataframe manipulation) -> 2.2.0<br />
+-	GeoPandas (used for geometric dataframe manipulation) -> 0.14.3<br />
+-	PySpark (used for interacting with Spark installation) -> 3.5.0<br />
+-	SciKit-Learn (used for machine learning computation) -> 1.4.1.post1<br />
+-	Matplotlib (used to create graphics) -> 3.4.3<br />
+-	Optuna (used for hyperparameter tuning) -> 3.6.1<br />
+-	Datetime*<br />
+-	Sys*<br />
+-	OS*<br />
+-	GC*<br />
+* Python packages that came with the base installation of Python 3.10.13<br /><br />
+Spark Version -> 3.5.0<br />
+Hadoop Version -> 3.3.4<br />
+Java Version -> 21.0.2<br />
+Scala Version -> 2.12.18<br />
+ArcGIS Pro Version -> 3.1.0<br />
+	Python Version -> 3.9.16<br />
+-	ArcPy (used for raster conversions and RMSE summary statistics) -> 3.1<br />
+	Conda Version -> 4.14.0<br />
+PostgreSQL Version -> 16.2<br />
+	Extensions:<br />
+-	PostGIS (used to apply spatial joins) -> 3.4.1<br />
