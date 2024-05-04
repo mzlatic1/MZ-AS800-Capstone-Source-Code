@@ -8,7 +8,7 @@ Wildfires can be interpreted as both damaging and beneficial for forest ecosyste
 There are a total of four Python scripts that are intended to be run in sequential order, starting with the script that contains 'Part A' in the file name and ending with the script that contains 'Part D' in the file name. Additionally, a PowerShell script was created to allow a streamlined process when running all of the required Python scripts. Below is a brief summary for each of the respected scripts in this repository:
 
 ***MZ_AS800_RUN_ALL_SCRIPTS.ps1***
-***Objective:*** Run all of the required Python scripts in the necessary order. Additional parameters are required to be filled in by the user. This will include the folder path that contains all of the necessary datasets, as well as, parameters to access a PostgreSQL database.
+***Objective:*** Run all of the required Python scripts in the necessary order. Additional parameters are required to be filled in by the user. This will include the folder path that contains all of the necessary datasets, as well as, parameters to access a PostgreSQL database. It would be recommended to run this with a conda enabled PowerShell terminal.
 
 ***MZ_AS800_Methodology_Part_A_Raster_Preprocessing.py***
 ***Objective:*** Convert all of the necessary raster datasets to feature class datasets. No additional parameters are required if the MZ_AS800_RUN_ALL_SCRIPTS.ps1 is executed, otherwise the user will need to indicate the folder path that contains all of the necessary datasets.
